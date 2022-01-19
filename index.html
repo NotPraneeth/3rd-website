@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lab exp 3</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <section class="first-page">
-    <nav class="nav">
+    <nav class="nav" data-aos="fade-in" data-aos-duration="2000">
         <ul class="nav ul">
             <li class="nav-text">Praneeth.dev</li>
             <li><a href="#">Home</a></li>
@@ -18,9 +19,13 @@
         </ul>
     </nav>
     <div class="hero-wrapper">
-        <h1 class="hero-content">Your wish, <br> My command.<br><span class="smol-hero">(I gotchu, no really.)</span></h1>
-        <img src="assets/construction2.gif" muted loop autoplay class="hero-vid"></img>
+        <h1 class="hero-content" data-aos="fade-in" data-aos-duration="2000">Your wish, <br> My command.<br><span class="smol-hero">(I gotchu, no really.)</span></h1>
+        <img src="assets/construction2.gif" muted loop autoplay class="hero-vid" data-aos="fade-in" data-aos-duration="2000"></img>
     </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
