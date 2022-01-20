@@ -12,6 +12,7 @@
 nav{
     z-index: 1;
     padding-left: 14vh;
+    white-space: nowrap;
 }
 nav ul li {
     display: inline;
@@ -40,7 +41,7 @@ nav ul li a:hover{
     font-size: 35px;
     transition: 0.7s;
     color: white;
-    cursor: pointer;
+    cursor: default;
 }
 .first-page {
     width: 100%;
@@ -49,13 +50,17 @@ nav ul li a:hover{
 }
 .hero-wrapper{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     padding-top: 10vh;
+    /* border: tomato 2px solid; */
 }
 .hero-content {
+    margin-left: 19vh;
+    margin-top: 8vh;
     font-size: 3.7em;
     transition: 0.7s;
+    white-space: nowrap;
 }
 .hero-vid{
     width: 80vh;
@@ -73,6 +78,9 @@ nav ul li a:hover{
 .smol-hero{
     font-size: 25px;
     opacity: 0.7;
+}
+.second-page{
+    height: 100vh;
 }
 
 
