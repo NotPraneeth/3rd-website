@@ -6,7 +6,7 @@
     margin-bottom: 0;
     font-family: 'Andika', sans-serif;
     box-sizing: border-box;
-    cursor:url(assets/marioconverted.jpg);
+    cursor:url("/assets/subway-lines32px.png");
 }
 
 nav{
@@ -21,15 +21,12 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: #000;
     margin-left: 40px;
     font-family: 'Andika', sans-serif;
     line-height: 90px;
     transition: 0.7s;
-    background: #000029;
-    color: #fff;
-    padding: 1px 20px 1px 20px;
-    border-radius: 50px;
+    color: #000;
+    font-weight: 700;
 }
 nav ul li a:hover{
     font-size: 28px;
@@ -40,10 +37,8 @@ nav ul li a:hover{
     font-family: 'Andika', sans-serif;
     font-size: 30px;
     transition: 0.7s;
-    background: #000029;
-    color: #fff;
-    padding: 1px 20px 1px 20px;
-    border-radius: 50px;
+    color: #000;
+    font-weight: 1000;
 }
 .nav-text:hover{
     font-size: 35px;
